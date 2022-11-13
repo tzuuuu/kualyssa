@@ -19,7 +19,6 @@ body {
 header {
     background-color: #F0EFE4;
     padding: 10px;
-
 }
 
 p.header {
@@ -30,7 +29,6 @@ p.header {
     font-family: chinese;
     font-style: italic;
     font-weight: bolder;
-    width: 100%;
     color: #fff2c8;
     text-shadow: #0b2449 5px 5px 6px;
     text-align: center;
@@ -321,7 +319,7 @@ hr {
 .sec3 {
     margin: 10px auto;
     background-color: #F0EFE4;
-    width: 100%;
+    width: 1500px;
     height: 1250px;
     display: flex;
 }
@@ -443,7 +441,7 @@ label{
 
 
 footer {
-    width: 100%;
+    width: 1500px;
     height: 150px;
     padding: 10px 10px;
     background-color: #F0EFE4;
@@ -466,4 +464,11 @@ footer {
 .icon:hover{
     width: 7%;
     height: 7%;
+}
+
+section, header, nav, footer{
+    max-width: 1500px;
+    width:100%;
+    margin:0 auto;
+    display: block;
 }
