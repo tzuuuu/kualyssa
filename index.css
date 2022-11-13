@@ -321,7 +321,7 @@ hr {
 .sec3 {
     margin: 10px auto;
     background-color: #F0EFE4;
-    width: 1500px;
+    width: 100%;
     height: 1250px;
     display: flex;
 }
